@@ -1,7 +1,7 @@
 # Red Hat
 
 
-# Boot into single user mode
+## Boot into single user mode
 
 Boot mode when computer starts up, edit.
 
