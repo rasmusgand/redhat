@@ -1,7 +1,7 @@
 # Red Hat
 
 
-## Boot into single user mode
+- Boot into single user mode
 
 Boot mode when computer starts up, edit.
 
@@ -15,7 +15,7 @@ touch /.autorelabel
 reboot -f
 
 ```
-## Change root password into something random.
+- Change root password into something random.
 
 ```
 # openssl rand -base64 15 | passwd --stdin root
