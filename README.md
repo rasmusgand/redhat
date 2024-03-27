@@ -15,3 +15,9 @@ touch /.autorelabel
 reboot -f
 
 ```
+## Change root password into something random.
+
+```
+# openssl rand -base64 15 | passwd --stdin root
+
+```
