@@ -1,9 +1,9 @@
 # Red Hat
 
 
-- Boot into single user mode
+* Reset root password
 
-Boot mode when computer starts up, edit.
+Boot mode when computer starts up, edit and append rd.break on the linux line.
 
 ```shell
 mount -o remount,rw /sysroot
@@ -15,7 +15,7 @@ touch /.autorelabel
 reboot -f
 
 ```
-- Change root password into something random.
+* Change root password into something random.
 
 ```
 # openssl rand -base64 15 | passwd --stdin root
